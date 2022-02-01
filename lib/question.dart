@@ -1,10 +1,11 @@
+//import the flutter packages
 import 'package:flutter/material.dart';
 
 class Question extends StatelessWidget {
   final String questionText;
 
   Question(this.questionText);
-
+//build the question widget
   @override
   Widget build(BuildContext context) {
     return Container(
